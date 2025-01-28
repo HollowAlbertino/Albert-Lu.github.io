@@ -1,8 +1,29 @@
-body{
-  background-color:#AAA80A;
+body {
+  background-color: #00caf2; 
+  text-align: center; 
 }
 
-#sky{
-  position:relative;
-  left:100px  
+.introduction {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+#sky {
+  position: relative;       
+  margin-top: 20px;   
+}
+
+a {
+  display: block;       
+  margin-top: 20px;       
+  color: blue;         
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;     
+  text-decoration: underline; 
 }
